@@ -1,0 +1,6 @@
+# Robots.txt for Oxygen Gym Model Town Panipat
+User-agent: *
+Allow: /
+
+# Host & Sitemap
+Sitemap: https://oxygengympanipat.com/sitemap.xml

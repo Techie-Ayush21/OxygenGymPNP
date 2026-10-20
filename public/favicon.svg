@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="redGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EF2929" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#EF2929" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF4D4D"/>
+      <stop offset="100%" stop-color="#D91F25"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="512" height="512" rx="104" fill="#0A0A0B"/>
+  <rect x="8" y="8" width="496" height="496" rx="96" fill="none" stroke="rgba(255, 255, 255, 0.12)" stroke-width="8"/>
+
+  <!-- Subtle Ambient Glow -->
+  <circle cx="256" cy="256" r="210" fill="url(#redGlow)"/>
+
+  <!-- Outer Oxygen Kinetic Ring -->
+  <circle cx="256" cy="256" r="160" fill="none" stroke="url(#redGrad)" stroke-width="36" stroke-linecap="round"/>
+
+  <!-- Barbell Weight Plates & Core Grip Motif -->
+  <!-- Left Plate -->
+  <rect x="136" y="216" width="24" height="80" rx="8" fill="#F7F5F2"/>
+  <rect x="112" y="232" width="16" height="48" rx="6" fill="#A1A1AA"/>
+
+  <!-- Right Plate -->
+  <rect x="352" y="216" width="24" height="80" rx="8" fill="#F7F5F2"/>
+  <rect x="384" y="232" width="16" height="48" rx="6" fill="#A1A1AA"/>
+
+  <!-- Center Bar -->
+  <rect x="156" y="244" width="200" height="24" rx="6" fill="#F7F5F2"/>
+
+  <!-- Center Core Ring / Oxygen Atom -->
+  <circle cx="256" cy="256" r="42" fill="#0A0A0B" stroke="#EF2929" stroke-width="14"/>
+  <circle cx="256" cy="256" r="18" fill="url(#redGrad)"/>
+</svg>
